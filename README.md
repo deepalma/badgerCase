@@ -20,9 +20,9 @@ Then you can:
 ```javascript
 const aTOb = a => b;
 
-const bTOcTOd = c => d;
+const bTOc = b => c;
 
-const aTOd = pipe(aTOb, bTOcTOd);
+const aTOc = pipe(aTOb, bTOc);
 
 ```
 or:
